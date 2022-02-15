@@ -1,0 +1,108 @@
+/* comon css */
+
+*{
+   text-decoration: none;
+   font-family: 'Noto Serif Bengali', serif;
+   margin: 0 auto;
+}
+.head, .menu_area, .stacter, .about_image, .jouno,.fff, .ans{
+    min-height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    margin: 0 auto;
+   
+}
+/* hedar */
+
+.head{
+    background-color:#16756D;
+    text-align: center;
+    color: rgb(251, 254, 255);
+}
+/* manu area css */
+.main_menu ul {
+    text-align: center;
+}
+.main_menu ul li {
+    border: 2px solid white;
+    display: inline;
+    padding: 11px;
+    background-color:#16756D;
+    border-radius: 10px;
+    min-height: 0px;
+    max-width: 1150;
+    color:black ;
+  
+}
+.main_menu ul li a{
+    color: rgb(26, 4, 4);
+    max-width: 1200px;
+}
+.main_menu ul li:hover{
+    background-color: rgb(223, 223, 19);
+}
+
+
+.main_menu ul li a{
+    text-emphasis-color: rgb(221, 221, 11) ;
+    
+}
+.stacter h4 a:hover{
+    background-color: #16756D;
+}
+.jouno h4 a :hover{
+   color: rgb(218, 29, 29);
+}
+/* footer area */
+.footer-area{
+    background-color: #16756D;
+    text-align: center;
+    min-height: 67px;
+    max-width: 1200px;
+    margin: 12px auto;
+}
+.footer-area ul li a{
+    color: white;
+}
+.footer-area ul li{
+    list-style:none ;
+    display: inline;
+    padding: 8px;
+    font-size: 19px;
+    margin: 0 auto;
+
+}
+/* about */
+.tim-hed h3{
+    text-align: center;
+    background-color: #71B774;
+    min-height: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.eror ul li{
+    color: red;
+    background-color: yellow;
+    list-style:none ;
+    min-height:67px;
+    max-width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about_image img{
+    width: 400px;
+    margin-left: 400px;
+}
+.about p{
+    margin: 0 auto;
+    min-height: 100px;
+    max-width: 1200px;
+}
+.dawn p{
+    margin: 0 auto;
+    min-height: 100px;
+    max-width: 1200px;
+}
